@@ -11,7 +11,7 @@ Bot ini dirancang untuk berinteraksi dengan pengguna, merespons perintah dasar s
 
 ## Prasyarat
   
-Sebelum menjalankan bot, pastikan Anda telah menginstal dependensi berikut:
+Sebelum menjalankan bot, pastikan Anda telah menginstal dependensi berikut :
 
     1. Python 3.7 atau lebih baru
     2. 'python-telegram-bot' versi 20.x.x
@@ -19,7 +19,10 @@ Sebelum menjalankan bot, pastikan Anda telah menginstal dependensi berikut:
 
 Anda dapat menginstal dependensi dengan perintah berikut:
 
-'''sh
+```sh
 pip install python-telegram-bot python-dotenv
-'''
+```
 
+## Note
+
+- **Keamanan Token** : Pastikan untuk tidak mengunggah file `.env` yang berisi token bot ke repositori publik. Tambahkan `.env` ke `.gitignore` untuk mencegahnya di-commit.
